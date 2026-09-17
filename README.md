@@ -1,20 +1,22 @@
 # TinyLab
 
-A tiny, opinionated scaffold for solo R&D — decisions, experiments, provenance, and strategy in one repo.
+**Turn a curious hunch into a tiny, traceable experiment.** 🔬
 
-TinyLab helps you remember what you tried, why you made a decision, and what would change your mind. Start with plain Markdown and Git. No installation, CLI, dependencies, or hosted service required.
+TinyLab is a pocket-sized lab bench for solo R&D. It keeps your questions, experiments, sources, and decisions together—so a promising rabbit hole can become useful evidence instead of a folder called `final-final-2`.
 
-## Start in five minutes
+All you need is Markdown and Git. No installation. No CLI to learn. No dependencies to babysit. Just bring a question.
+
+## Open your lab in five minutes 🚀
 
 1. Choose **Use this template → Create a new repository** on GitHub. Choose the visibility appropriate for your work.
 2. Replace this README with your project's introduction and fill in [GOAL.md](GOAL.md).
-3. Copy `experiments/_template/` to `experiments/exp-001/`. Write the question and conditions before running anything; commit them to Git.
-4. Record sources in [provenance/SOURCES.md](provenance/SOURCES.md), then run the experiment and complete its result.
-5. Add a decision to [DECISIONS.md](DECISIONS.md), linking the evidence and rejected alternatives.
+3. Copy `experiments/_template/` to `experiments/exp-001/` and give your first hunch somewhere to live.
+4. Write the question and conditions before peeking at the answer. Record your sources in [provenance/SOURCES.md](provenance/SOURCES.md), then run the experiment.
+5. Capture what happened—even if the answer is “nope”—and add the resulting decision to [DECISIONS.md](DECISIONS.md).
 
 Keep the TinyLab license notice for reused template material. Select an appropriate license for your own additions and document any third-party terms separately.
 
-## What's inside
+## Your tiny lab bench 🧰
 
 ```text
 GOAL.md                   One outcome, success criteria, and a time budget
@@ -34,24 +36,26 @@ strategy/
 LICENSE                   MIT license for the scaffold
 ```
 
-## A small working loop
+## The loop 🔁
 
 **Question → conditions → experiment → evidence → decision.**
 
+That is the whole machine. Keep it small, run it honestly, and let each answer sharpen the next question.
+
 - Keep questions small enough to answer within your budget.
 - Commit conditions before inspecting results. If the design changes afterward, create a new experiment and link the original.
-- Separate measured results, estimates, and unknowns. A negative or inconclusive result is useful evidence.
+- Separate measured results, estimates, and unknowns. A negative or inconclusive result still earns its place in the lab book.
 - Link decisions to experiments and source records. Leave exploratory ideas in `research/` until ready to test.
 
 For example: “Can someone identify the current goal and the reason for the latest decision in under two minutes?” Define the participants, task, measurement, and pass threshold before testing. This is an illustrative question, not a completed experiment.
 
-These documents support a habit; they do not enforce preregistration or guarantee reproducibility. Git history can also be rewritten.
+## Tiny is a feature 🌱
 
-## Keep it tiny
+Use only the sections that help your next decision. Skip the rest. TinyLab has no prescribed language, framework, database, or research domain, and it would like to keep things that way.
 
-Use only the sections that help your next decision. There is no prescribed language, framework, database, or research domain. Propose improvements through an issue or a small pull request; explain the recurring problem before adding structure.
+If the lab coat starts feeling heavy, remove something. If you spot a recurring problem, propose a focused improvement through an issue or a small pull request.
 
-## Before making a project public
+## Before opening the doors 🌍
 
 - Review all tracked files and Git history for credentials, personal information, and confidential material. `.gitignore` does not remove previously committed files.
 - Check the license and redistribution rights for each source and dataset. The scaffold's MIT license does not grant rights to third-party material.
@@ -59,6 +63,10 @@ Use only the sections that help your next decision. There is no prescribed langu
 - Check that evidence links and reproduction instructions work for the intended reader.
 
 Repository visibility is a separate GitHub setting. Having a license does not make a private repository public.
+
+## One last note
+
+TinyLab helps you build a good evidence trail; it cannot make a claim true or stop Git history from being rewritten. Curiosity is welcome here. So is changing your mind.
 
 ## License
 
