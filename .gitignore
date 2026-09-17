@@ -1,0 +1,11 @@
+# Local-only material; ignored files must still be handled responsibly.
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+private/
+scratch/
+
+# Ignoring a file does not remove it from existing Git history.
