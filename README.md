@@ -40,6 +40,18 @@ LICENSE                   MIT license for the scaffold
 
 **Question → conditions → experiment → evidence → decision.**
 
+```mermaid
+flowchart TD
+    Q["Question: hypothesis.md"] --> C["Conditions: conditions.md"]
+    C --> P["Commit the plan and source records"]
+    S["Sources: provenance/SOURCES.md"] --> P
+    P --> X["Run the experiment within budget and stopping rules"]
+    X --> E["Evidence: result.md"]
+    E --> D["Decision: DECISIONS.md"]
+    S -.-> D
+    D -->|"Next question: new experiment"| Q
+```
+
 That is the whole machine. Keep it small, run it honestly, and let each answer sharpen the next question.
 
 - Keep questions small enough to answer within your budget.
